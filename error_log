@@ -1,0 +1,40 @@
+[09-Jan-2019 20:41:38 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[09-Jan-2019 20:41:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/wn2tjhelpdetroit/public_html/wp-content/themes/JointsWP-CSS-master/main.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/wn2tjhelpdetroit/public_html/wp-content/themes/JointsWP-CSS-master/main.php on line 6
+[09-Jan-2019 20:42:04 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[09-Jan-2019 20:42:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/wn2tjhelpdetroit/public_html/wp-content/themes/JointsWP-CSS-master/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/wn2tjhelpdetroit/public_html/wp-content/themes/JointsWP-CSS-master/index.php on line 10
+[09-Jan-2019 20:42:25 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[09-Jan-2019 20:42:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/wn2tjhelpdetroit/public_html/wp-content/themes/JointsWP-CSS-master/main.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/wn2tjhelpdetroit/public_html/wp-content/themes/JointsWP-CSS-master/main.php on line 6
+[15-Jul-2019 03:40:56 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[15-Jul-2019 03:40:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/wn2tjhelpdetroit/public_html/wp-content/themes/JointsWP-CSS-master/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/wn2tjhelpdetroit/public_html/wp-content/themes/JointsWP-CSS-master/index.php on line 10
+[12-Aug-2019 07:23:17 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[12-Aug-2019 07:23:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/wn2tjhelpdetroit/public_html/wp-content/themes/JointsWP-CSS-master/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/wn2tjhelpdetroit/public_html/wp-content/themes/JointsWP-CSS-master/index.php on line 10
+[20-Sep-2019 23:35:39 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[20-Sep-2019 23:35:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/wn2tjhelpdetroit/public_html/wp-content/themes/JointsWP-CSS-master/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/wn2tjhelpdetroit/public_html/wp-content/themes/JointsWP-CSS-master/index.php on line 10
+[30-Sep-2019 20:55:27 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[30-Sep-2019 20:55:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/wn2tjhelpdetroit/public_html/wp-content/themes/JointsWP-CSS-master/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/wn2tjhelpdetroit/public_html/wp-content/themes/JointsWP-CSS-master/index.php on line 10
+[11-Nov-2019 17:40:49 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[11-Nov-2019 17:40:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/wn2tjhelpdetroit/public_html/wp-content/themes/JointsWP-CSS-master/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/wn2tjhelpdetroit/public_html/wp-content/themes/JointsWP-CSS-master/index.php on line 10
