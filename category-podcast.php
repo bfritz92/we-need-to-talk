@@ -52,7 +52,7 @@ get_header(); ?>
 						<span class="charcoal mt-1"><?php the_excerpt(); ?></span>
 						<div class="podcast-episode-listing--links">
 							<a href="<?php the_permalink(); ?>" class="button btn-purple bold text-right mr-2">Listen</a>
-							<span class="time"><?php the_field ('episode_number'); ?> mins</span>
+							<span class="time"><?php the_field ('time'); ?> mins</span>
 						</div>
 						</div>
 						<img class="podcast-icon" src="<?php the_field ('episode_icon'); ?>">	
