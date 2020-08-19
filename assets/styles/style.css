@@ -1033,7 +1033,7 @@ display:block
   font-size:1.7rem;
   line-height:1.1;
 }
-.podcast-episode-listing .btn-play{
+.btn-play{
   align-self:end;
   max-width:140px;
   margin:0;
@@ -1041,6 +1041,10 @@ display:block
   border: 2px solid #653074;
   color: #653074;
   display: flex;
+}
+.btn-play:hover{
+  background: #653074#f1f1f1;
+  color:#f1f1f1 ;
 }
 
 .btn-play:before{
