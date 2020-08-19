@@ -1036,10 +1036,9 @@ display:block
 .podcast-episode-listing .btn-purple{
   align-self:end;
   max-width:140px;
-  margin:0 2rem auto 3rem;
 }
 .podcast-episode-listing .podcast-icon{
-  max-width:150px;
+  max-width: 220px;
   justify-self:end;
   align-self:center;
 }
