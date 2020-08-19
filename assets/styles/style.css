@@ -1064,6 +1064,16 @@ display:block
   justify-self:end;
   align-self:center;
 }
+
+@media only screen and (max-width:612px){
+.podcast-episode-listing{
+    flex-direction:column-reverse;
+  }
+.podcast-episode-listing .podcast-icon{
+    max-width:100%;
+    min-width:100%;
+}
+}
 .podcast-episode-listing--links{
   display: flex;
   justify-content: start;
