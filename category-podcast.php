@@ -48,7 +48,7 @@ get_header(); ?>
 					<div class="podcast-episode-listing mb-2">
 						<div class="podcast-episode-listing--content">
 						<p class="bold purple">Episode <?php the_field ('episode_number'); ?></p>
-						<a href="<?php the_permalink(); ?>" ><h3 class="bold purple"><?php the_title(); ?></h3></a>
+						<a href="<?php the_permalink(); ?>" ><h4 class="bold purple"><?php the_title(); ?></h4></a>
 						<span class="charcoal mt-1"><?php the_excerpt(); ?></span>
 						<div class="podcast-episode-listing--links">
 							<a href="<?php the_permalink(); ?>" class="button btn-play bold text-right mr-2">Listen</a>
