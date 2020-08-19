@@ -1037,6 +1037,7 @@ display:block
   padding-left: 10px;
   justify-self:end;
   align-self:center;
+  padding-bottom:10px;
 }
 @media only screen and (min-width:612px){
   .podcast-episode-listing{
@@ -1045,6 +1046,7 @@ display:block
   .podcast-episode-listing .podcast-icon{
     max-width: 220px;
     min-width: 220px;
+    padding-bottom:0;
   }
 }
 .podcast-episode-listing a h3{
