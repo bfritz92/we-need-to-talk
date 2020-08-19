@@ -1069,9 +1069,7 @@ display:block
   justify-content: start;
   align-items: center;
 }
-.podcast-episode-listing--links span.time{
-  padding-left:10px;
-}
+
 .purple-bg.podcast{
     background-image:url('https://wn2t.org/wp-content/uploads/2020/03/podcast-bg.jpg');
     background-size:cover;
