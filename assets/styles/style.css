@@ -1044,7 +1044,7 @@ display:block
 }
 
 .podcast-episode-listing .btn-play:before{
-  content:url(/wp-content/uploads/2020/08/play-button-purple-sm.png);
+  content:url(/wp-content/uploads/2020/08/play-button-sm.png);
   height:15px;
   width:16px;
 }
