@@ -1037,13 +1037,13 @@ display:block
   align-self:end;
   max-width:140px;
   margin:0;
-  background: #f1f1f1;
+  background-color: #f1f1f1;
   border: 2px solid #653074;
   color: #653074;
   display: flex;
 }
 .btn-play:hover{
-  background: #653074;
+  background-color: #653074;
   color:#f1f1f1 ;
 }
 
@@ -1051,7 +1051,7 @@ display:block
   content:url(/wp-content/uploads/2020/08/play-button-sm.png);
   height:15px;
   width:16px;
-  margin-top:5px;
+  margin-top:-2px;
   margin-right:10px;
 }
 .btn-play:hover:before{
