@@ -1021,7 +1021,8 @@ display:block
 }
 .podcast-episode-listing{
   display:flex;
-  flex-direction:row;
+  
+  flex-direction:column-reverse;
   background-color:#f1f1f1;
   padding:25px;
   margin-left:10px;
@@ -1039,7 +1040,7 @@ display:block
 }
 @media only screen and (min-width:612px){
   .podcast-episode-listing{
-      flex-direction:column-reverse;
+    flex-direction:row;
     }
   .podcast-episode-listing .podcast-icon{
     max-width: 220px;
