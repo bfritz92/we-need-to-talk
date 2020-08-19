@@ -1030,6 +1030,22 @@ display:block
   border-top:3px solid #663075;
   border-bottom:3px solid #663075;
 }
+.podcast-episode-listing .podcast-icon{
+  margin-left:10px;
+  margin-right:10px;
+  padding-left: 10px;
+  justify-self:end;
+  align-self:center;
+}
+@media only screen and (min-width:612px){
+  .podcast-episode-listing{
+      flex-direction:column-reverse;
+    }
+  .podcast-episode-listing .podcast-icon{
+    max-width: 220px;
+    min-width: 220px;
+  }
+}
 .podcast-episode-listing a h3{
   font-size:1.7rem;
   line-height:1.1;
@@ -1058,23 +1074,9 @@ display:block
 .btn-play:hover:before{
   content:url(/wp-content/uploads/2020/08/play-button-sm-white.png);
 }
-.podcast-episode-listing .podcast-icon{
-  max-width: 220px;
-  min-width: 220px;
-  padding-left: 10px;
-  justify-self:end;
-  align-self:center;
-}
 
-@media only screen and (max-width:612px){
-.podcast-episode-listing{
-    flex-direction:column-reverse;
-  }
-.podcast-episode-listing .podcast-icon{
-    max-width:100%;
-    min-width:100%;
-}
-}
+
+
 .podcast-episode-listing--links{
   display: flex;
   justify-content: start;
