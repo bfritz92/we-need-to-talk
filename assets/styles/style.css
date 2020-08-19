@@ -1060,7 +1060,7 @@ padding-left: 10px;
   justify-content: start;
   align-items: center;
 }
-.podcast-episode-listing--links time{
+.podcast-episode-listing--links span.time{
   padding-left:10px;
 }
 .purple-bg.podcast{
