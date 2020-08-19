@@ -1039,7 +1039,7 @@ display:block
   margin:0;
 }
 .podcast-episode-listing .podcast-icon{
-  max-width: 220px;
+  width: 220px;
   justify-self:end;
   align-self:center;
 }
