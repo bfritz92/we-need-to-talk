@@ -50,7 +50,10 @@ get_header(); ?>
 						<p class="bold purple">Episode <?php the_field ('episode_number'); ?></p>
 						<a href="<?php the_permalink(); ?>" ><h3 class="bold purple"><?php the_title(); ?></h3></a>
 						<span class="charcoal mt-1"><?php the_excerpt(); ?></span>
-						<a href="<?php the_permalink(); ?>" class="button btn-purple bold text-right mr-2" style="margin-bottom:0;">Listen</a>
+						<div class="podcast-episode-listing--links">
+							<a href="<?php the_permalink(); ?>" class="button btn-purple bold text-right mr-2">Listen</a>
+							<span class="time"><?php the_field ('episode_number'); ?> mins</span>
+						</div>
 						</div>
 						<img class="podcast-icon" src="<?php the_field ('episode_icon'); ?>">	
 					</div>
