@@ -1037,9 +1037,14 @@ display:block
   align-self:end;
   max-width:140px;
   margin:0;
+  background: #f1f1f1;
+  border: 2px solid #653074;
+  color: #653074;
+  display: flex;
 }
+
 .podcast-episode-listing .btn-play:before{
-  content:url(/wp-content/uploads/2020/08/play-button-purple.png);
+  content:url(/wp-content/uploads/2020/08/play-button-purple-sm.png);
   height:15px;
   width:16px;
 }
@@ -1049,6 +1054,14 @@ display:block
 padding-left: 10px;
   justify-self:end;
   align-self:center;
+}
+.podcast-episode-listing--links{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.podcast-episode-listing--links time{
+  padding-left:10px;
 }
 .purple-bg.podcast{
     background-image:url('https://wn2t.org/wp-content/uploads/2020/03/podcast-bg.jpg');
