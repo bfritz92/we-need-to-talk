@@ -1033,10 +1033,15 @@ display:block
   font-size:1.7rem;
   line-height:1.1;
 }
-.podcast-episode-listing .btn-purple{
+.podcast-episode-listing .btn-play{
   align-self:end;
   max-width:140px;
   margin:0;
+}
+.podcast-episode-listing .btn-play:before{
+  content:url(/wp-content/uploads/2020/08/play-button-purple.png);
+  height:15px;
+  width:16px;
 }
 .podcast-episode-listing .podcast-icon{
   max-width: 220px;

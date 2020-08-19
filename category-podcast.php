@@ -51,7 +51,7 @@ get_header(); ?>
 						<a href="<?php the_permalink(); ?>" ><h3 class="bold purple"><?php the_title(); ?></h3></a>
 						<span class="charcoal mt-1"><?php the_excerpt(); ?></span>
 						<div class="podcast-episode-listing--links">
-							<a href="<?php the_permalink(); ?>" class="button btn-purple bold text-right mr-2">Listen</a>
+							<a href="<?php the_permalink(); ?>" class="button btn-play bold text-right mr-2">Listen</a>
 							<span class="time"><?php the_field ('time'); ?> mins</span>
 						</div>
 						</div>
