@@ -1043,15 +1043,20 @@ display:block
   display: flex;
 }
 
-.podcast-episode-listing .btn-play:before{
+.btn-play:before{
   content:url(/wp-content/uploads/2020/08/play-button-sm.png);
   height:15px;
   width:16px;
+  margin-top:5px;
+  margin-right:10px;
+}
+.btn-play:hover:before{
+  content:url(/wp-content/uploads/2020/08/play-button-sm-white.png);
 }
 .podcast-episode-listing .podcast-icon{
   max-width: 220px;
   min-width: 220px;
-padding-left: 10px;
+  padding-left: 10px;
   justify-self:end;
   align-self:center;
 }
