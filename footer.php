@@ -27,8 +27,8 @@
 	    				<div class="small-8 medium-12 large-12 cell footer-bottom">
 							<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>.</p>
 							<div class="footer-social">
-							<a class="white-link" href="http://www.facebook.com/weneedtotalkdetroit/"><i class="fab fa-facebook-square"></i></a>
-							<a class="white-link" href="http://www.instagram.com/weneedtotalkdetroit/"><i class="fab fa-instagram-square"></i></a>
+							<a class="" href="http://www.facebook.com/weneedtotalkdetroit/"><i class="fab fa-facebook-square"></i></a>
+							<a class="" href="http://www.instagram.com/weneedtotalkdetroit/"><i class="fab fa-instagram-square"></i></a>
 							</div>
 						</div>
 	    			</div>
