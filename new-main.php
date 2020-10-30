@@ -6,10 +6,10 @@
 get_header(); ?>
 			
 <div class="content">
-	
+<img src="https://wn2t.org/wp-content/uploads/2020/10/WNT2-Survey-Email-Hdr-f-scaled.jpg" class="hide-for-large">
 	<section class="grid-x new-splash purple-bg">
 		<div class="cell new-splash--headline small-12 large-6 large-offset-6">
-		<img src="https://wn2t.org/wp-content/uploads/2020/10/WNT2-Survey-Email-Hdr-f-scaled.jpg" class="show-for-small-only">
+		
 			<div class="p10 purple-bg pl-1 pb-1">
 				<h3 class="yellow pb-1 pt-1">Got 10 minutes? You could change a life.</h3>
 				<h4 class="pr-1 yellow pb-1">Help us take care of the mental health of our young people — and earn a chance to receive a $50 Amazon gift card. </h4>
