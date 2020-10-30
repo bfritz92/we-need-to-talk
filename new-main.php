@@ -11,8 +11,8 @@ get_header(); ?>
 		<div class="cell new-splash--headline small-12 large-6 large-offset-6">
 		
 			<div class="p10 purple-bg pl-1 pb-1">
-				<h3 class="yellow pb-1 pt-1">Got 10 minutes?</h3>
-				<h3 class="yellow pb-1 pt-1">You could change a life.</h3>
+				<h3 class="yellow pt-1">Got 10 minutes?</h3>
+				<h3 class="yellow pb-1">You could change a life.</h3>
 				<h4 class="pr-1 yellow pb-1">Help us take care of the mental health of our young people — and earn a chance to receive a $50 Amazon gift card. </h4>
 				<h5 style="text-align: right;padding-right: 1rem;">
 					<a href="https://www.surveymonkey.com/r/F7VVLJX" class="white-link">Take our online survey</a>
