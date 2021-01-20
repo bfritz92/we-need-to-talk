@@ -686,6 +686,8 @@ SECTIONS
 NEW SPLASH AUG 2019
 ********************/
 .new-splash {
+  background-color: #7c5a8b;
+  background-repeat: no-repeat;
 }
 .new-splash--headline {
   display: flex;
@@ -767,10 +769,10 @@ ul.read-flex li a {
 
 @media screen and (min-width: 1020px) {
   .new-splash {
-    background-image: url("https://wn2t.org/wp-content/uploads/2020/10/WNT2-Survey-Email-Hdr-f-scaled.jpg");
-    background-size: 115%;
-    min-height: 47vw;
-    background-position: right center;
+    background-image: url("https://wn2t.org/wp-content/uploads/2019/08/ImpactCover2.jpg");
+    background-position: bottom left;
+    background-size: 56%;
+    min-height: 40vw;
   }
   .new-splash--headline {
     height: inherit;
