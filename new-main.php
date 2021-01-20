@@ -6,7 +6,6 @@
 get_header(); ?>
 			
 <div class="content">
-<img src="https://wn2t.org/wp-content/uploads/2020/10/WNT2-Survey-Email-Hdr-f-scaled.jpg" class="hide-for-large">
 	<section class="grid-x new-splash purple-bg">
 		<div class="cell new-splash--headline small-10 small-offset-1 large-6 large-offset-6">
 		<?php the_post_thumbnail( 'category-thumb' ); ?>
