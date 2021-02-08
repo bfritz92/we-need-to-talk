@@ -35,7 +35,7 @@ get_header(); ?>
 				'category_name'  	=> 'Podcast', 
 				'meta_key'			=> 'episode_number',
 				'orderby'			=> 'meta_value',
-				'order'				=> 'ASC',
+				'order'				=> 'DESC',
 				/*
 				'order'			=> 'ASC',
 				'orderby'		=> 'episode_number',*/									
