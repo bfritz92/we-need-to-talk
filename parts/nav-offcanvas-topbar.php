@@ -9,7 +9,7 @@
 <div class="navbar">
 	<div class="">
 		<ul class="menu">
-			<li><a href="<?php echo home_url(); ?>"><img id="nav-logo" src="/wp-content/uploads/2019/03/wntt-jfmd-1.svg"></a></li>
+			<li><a href="<?php echo home_url(); ?>"><img id="nav-logo" src="/wp-content/uploads/2019/01/wntt-only.svg"></a></li>
 		</ul>
 	</div>
 	<div class="show-for-large">

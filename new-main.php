@@ -9,9 +9,10 @@ get_header(); ?>
 	<section class="grid-x new-splash purple-bg">
 		<div class="cell new-splash--headline small-10 small-offset-1 large-6 large-offset-6">
 		<?php the_post_thumbnail( 'category-thumb' ); ?>
-		<h4 class="yellow pb-1 pt-1">With so much uncertainty and change due to COVID-19, we all have to take extra care of our mental and physical health. Here are some resources to help you get through this challenging time.</h4>
-		<h5><a href="https://wn2t.org/covid-19-mental-wellness/" class="yellow-link">Visit our COVID-19 & Mental Wellness Resources Page</a></h5>
-		</div>
+		<h4 class="yellow pb-1 pt-1">We Need to Talk is a community-wide youth mental health initiative aimed at increasing awareness of mental illness, reducing stigma, and improving access to services.</h4>
+		<p class="white">The program is managed by Jewish Family Service of Metropolitan Detroit with support from Jewish Federation of Metropolitan Detroit. WN2T works in partnership with Jewish Detroit’s human service agencies, schools, synagogues, and youth-serving organizations. Together, WN2T and partners provide educational programming, trainings, and funding for additional mental health professionals to support young people and their families.<</p>
+		<h5><a href="https://wn2t.org/about/" class="yellow-link">Learn more about We Need to Talk</a></h5>	
+	</div>
 		<img class="hide-for-large new-splash--image" src="https://wn2t.org/wp-content/uploads/2019/08/ImpactCover-mobile.jpg" />
 
 	</section>
@@ -153,13 +154,7 @@ get_header(); ?>
 		
 	</section>
 </div>
-<div class="purple-bg pt-2 pb-2 grid-x grid-padding-x grid-margin-x">
-	<div style="display:flex; flex-direction:column;" class="cell small-10 small-offset-1">
-	<h3 class="white">Do you have a story you’d like to share?</h3>
-		<h5 class="yellow pb-1">We’re always looking to expand the conversation about youth mental health.</h5>
-		<a href="https://wn2t.org/contact-us/" style="align-self: end;margin-right: 2rem;" class="button btn-yellow">Let us know.</a>
-	</div>
-</div>
+
 
 </div>
 

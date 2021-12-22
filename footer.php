@@ -15,9 +15,7 @@
 						<div class="small-12 medium-8 large-10 cell" >
 							<img id="footer-logo" src="/wp-content/uploads/2019/01/wntt-horizontal.svg">
 						</div>
-						<div class="small-12 medium-4 large-2 cell text-right">
-							<img id="footer-jhelp" src="/wp-content/uploads/2019/04/jhelp-org-sm.png">
-						</div>
+						
 					</div>
 					<div class="grid-x grid-margin-x grid-padding-x purple-bg">
 						<div class="small-12 medium-12 large-12 cell pt-2">

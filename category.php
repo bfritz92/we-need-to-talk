@@ -83,7 +83,7 @@ get_header(); ?>
 		<?php wp_reset_query();?>
 		</div>
 	<?php else : ?>
-	<div class="cell small-12 medium-12 large-8 large-centered pl-1 pt-2">		
+	<div class="cell small-12 medium-12 large-8 large-offset-2 pl-1 pt-2">		
 	<h2 class="purple border-bottom">Info for <?php single_cat_title(); ?></h2>		
 		<?php
 			$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
