@@ -10,7 +10,6 @@ get_header(); ?>
 		<div class="cell new-splash--headline small-10 small-offset-1 large-6 large-offset-6">
 		<?php the_post_thumbnail( 'category-thumb' ); ?>
 		<h4 class="yellow pb-1 pt-1">We Need to Talk is a community-wide youth mental health initiative aimed at increasing awareness of mental illness, reducing stigma, and improving access to services.</h4>
-		<p class="white">The program is managed by Jewish Family Service of Metropolitan Detroit with support from Jewish Federation of Metropolitan Detroit. WN2T works in partnership with Jewish Detroit’s human service agencies, schools, synagogues, and youth-serving organizations. Together, WN2T and partners provide educational programming, trainings, and funding for additional mental health professionals to support young people and their families.<</p>
 		<h5><a href="https://wn2t.org/about/" class="yellow-link">Learn more about We Need to Talk</a></h5>	
 	</div>
 		<img class="hide-for-large new-splash--image" src="https://wn2t.org/wp-content/uploads/2019/08/ImpactCover-mobile.jpg" />
@@ -139,7 +138,7 @@ get_header(); ?>
 		<?php endif;  ?>
 	<?php wp_reset_query();?>	
  
- <div class="charcoal-bg">
+ <!-- <div class="charcoal-bg">
 	<section class="disclaimer grid-x grid-padding-x align-middle charcoal-bg contained">
 		<div class="cell small-12 medium-8">
 			<h3 class="yellow"><?php echo get_post_meta($post->ID, 'footer_home_left_title', true); ?></h3>
@@ -153,7 +152,7 @@ get_header(); ?>
 		</div>
 		
 	</section>
-</div>
+</div> -->
 
 
 </div>
