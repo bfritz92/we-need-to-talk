@@ -131,51 +131,7 @@ get_header(); ?>
 		<?php wp_reset_query();?>
 	</div>	
 	<?php endif; ?>
-	<?php if ($category_id == '8') : ?>
-	<?php else : ?>
-	<div class="in-the-news cell small-12 medium-12 large-4 large-centered pt-2">
-	<h3 class="purple border-bottom" id="recommended-articles">Helpful News Articles</h3>
-		<?php
-			$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
-			$args = array(
-				'post_type'  	=> 'post',
-				'cat'			=> '8',
-				'order'			=> 'DESC',
-				'orderby'		=> 'date',
-				'posts_per_page'=> 7,
-				'paged' => $paged
-			);		
-			$main_posts = new WP_Query( $args );
-			$count = 0;
-			if( $main_posts->have_posts() ):
-		$counter = 0;
-				while( $main_posts->have_posts() ) : $main_posts->the_post(); 
-		$counter++ ?>
-		 
-					<?php
-						$author_id = get_the_author_meta('ID');
-						$author_title = get_field('title', 'user_'. $author_id );
-						// - Coming Soon $author_badge = get_field('author_badge', 'user_'. $author_id );
-					?>				
-		<div class="grid-x grid-padding-x mb-2 mt-2">
-			<div class="cell small-2">
-				<div class="news-source" style="background-image:url('<?php the_field ('news_icon'); ?>')"></div>
-			</div>
-			
-			<div class="cell small-10">
-				<a href="<?php the_field ('external_link'); ?>" class=""><h6 class="purple-link source bold"><?php the_title(); ?></h6></a>
-				<p class="charcoal bold"><?php the_field ('news_source'); ?></p>
-				<p class="charcoal"><?php echo get_the_date(); ?></p>
-			</div>
-		</div>
-					<?php endwhile; ?>
-				<?php  if (function_exists("pagination")) {
-					echo '<a class="button btn-purple" href="/third-party/">View More Articles</a>';
-				}  ?>
-			<?php endif;  ?>
-		<?php wp_reset_query();?>	
-		</div>
-		<?php endif; ?>
+	
 </section>
 
 </div>
