@@ -435,6 +435,8 @@ SECTIONS
   margin-bottom:auto;
 }
 
+.limit-1000{max-width:1000px;}
+
 .article-container{
   max-width: 1000px;
   margin-left:auto;
