@@ -32,7 +32,7 @@ get_header(); ?>
 						<!-- <?php endif; ?> -->
 						<h1 class="yellow">Stories</h1>
 						<div class="border-yellow pl-1 pr-1">
-							<p class="white bold">By telling our stories we can reduce the stigma associated with mental illness and encourage those who need it reach out for support. These videos feature the stories of courageous young people in the Detroit Jewish community sharing about their mental health journeys and communal professionals offering guidance for young people. We are extremely grateful for their vulnerability and bravery to share their stories in order to help others.</p>
+							<p class="white bold">By telling our stories we can reduce the stigma associated with mental illness and encourage those who need it to reach out for support. These videos feature the stories of courageous young people in the Detroit Jewish community sharing about their mental health journeys communal professionals offering guidance for young people. We are extremely grateful for their vulnerability and bravery in sharing their stories to help others.</p>
 						</div>
 					</div>
 				</div>

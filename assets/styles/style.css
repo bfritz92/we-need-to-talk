@@ -962,6 +962,7 @@ ul.funders {
 ul.funders li {
   padding-bottom: 10px;
   line-height: 1.3;
+  margin-left: 1rem;
 }
 #about-partners .border-purple {
   border-left: none;
